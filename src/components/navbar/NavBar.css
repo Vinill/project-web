@@ -1,0 +1,56 @@
+
+/* Blocks */
+
+.navbar {
+    width: 100%;
+    height: 25vh;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 25% 45% auto;
+    border: 1px solid black;
+}
+
+.head{
+    background-color: peru;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 20% auto;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.head-topBar {
+    display: grid;
+    grid-template-columns: 20% 20%;
+}
+
+.sec-one{
+    border: 1px solid;
+    text-align: center;
+}
+
+.sec-two{
+    border: 1px solid;
+    text-align: end;
+    padding-right: 10%;
+}
+
+.body{
+    border: 1px solid black;
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 20% auto auto;
+    align-items: center;
+}
+
+.footer{
+    border: 1px solid black;
+    background-color: darkgoldenrod;
+}
+
+/* Elements */
+
+/* Modifiers */
+
+/* Page  Responsive*/
